@@ -1,0 +1,199 @@
+/* Reiniciar márgenes y rellenos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #000000;
+    background-image: url('../../../public/fondo.png');
+    background-size: cover;
+    background-attachment: fixed; /* Asegura que la imagen de fondo se mantenga fija */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; /* Ajusta el espacio alrededor del contenido */
+    color: white; /* Color base para los textos */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.88); /* Fondo semi-transparente para mejorar la legibilidad */
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px; /* Aumenta el ancho máximo */
+    border-radius: 10px; /* Bordes redondeados para el contenedor */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7); /* Sombra más difusa para un efecto más suave */
+    margin: auto;
+}
+
+.info {
+    flex: 1;
+    padding-right: 20px; /* Añade un espacio adicional */
+    border-right: 2px solid #f4c417; /* Línea divisoria más ancha */
+}
+
+.info h2 {
+    font-size: 28px; /* Aumenta el tamaño de la fuente */
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.info p strong {
+    font-weight: bold;
+    font-size: 22px; /* Aumenta el tamaño de la fuente para los textos destacados */
+}
+
+.info a {
+    color: #eac445;
+    text-decoration: none;
+}
+
+.infoama {
+    color: #eac445;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #ffffff; /* Mejora la visibilidad de la línea horizontal */
+    margin: 20px 0;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo más oscuro para el formulario */
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.7);
+    color: #FFFFFF;
+}
+
+.formulario h2 {
+    font-size: 28px; /* Tamaño de fuente más grande */
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.formulario p {
+    margin-bottom: 15px;
+    font-size: 16px; /* Tamaño de fuente más pequeño */
+    color: #B8B8B8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 16px;
+    color: #B8B8B8;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    padding: 12px;
+    background-color: #333333;
+    border: 1px solid #555555;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #B8B8B8;
+}
+
+.btn {
+    background-color: #F5C24C;
+    padding: 12px;
+    font-size: 16px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #E4B33F;
+    transform: scale(1.05); /* Efecto de escalado al pasar el cursor */
+}
+
+.infoama li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario, .info {
+        width: 100%;
+        max-width: 100%; /* Ajusta el ancho al 100% en pantallas pequeñas */
+        margin-bottom: 20px;
+        border-right: none; /* Elimina la línea divisoria en pantallas pequeñas */
+    }
+}
+
+
+
+/*Angular Material*/
+section {
+    display: table;
+  }
+  
+  .example-label {
+    display: table-cell;
+    font-size: 14px;
+    margin-left: 8px;
+    min-width: 110px;
+  }
+  
+  .example-button-row {
+    display: table-cell;
+    max-width: 600px;
+    margin: 8px 0;
+  }
+  
+  .example-button-row .mat-mdc-button-base {
+    margin: 8px 8px 8px 0;
+    color: #000000;
+  }
+  
+  .example-flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  
+  .example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    
+  }
+
+
+  /*
+  Mapa - Info
+  */
+
+  
+  

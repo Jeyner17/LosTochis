@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+          <p><strong>Localización</strong></p>
+          <p><strong>Te esperamos</strong>
+          <p>
+          <p><strong>Horario:</strong> De Martes a Domingo, de 8:00h a 23:00h.</p>
+          <hr />
+          <p>
+            <strong>Dirección:</strong>
+          </p>
+          <p class="infoama">Av. Quevedo Km 3
+            Luz de América
+            Cerca de la Universidad de las Fuerzas Armadas ESPE
+          </p>
+    
+          <p><strong>Contactos Telefónicos:</strong></p>
+          <ul class="infoama">
+            <li>0939005564</li>
+            <li>0987654321</li>
+            <li>0971234567</li>
+          </ul>
+          <p>
+            <strong>Email:</strong>
+          </p>
+          <p class="infoama">
+            lostochis1&#64;gmail.com
+          </p>
+          <p><strong>Redes sociales:</strong></p>
+          <section>
+            <div class="example-button-row">
+              <a mat-raised-button href="https://www.youtube.com/@KWAEC" target="_blank">YouTube</a>
+              <a mat-raised-button href="https://www.facebook.com/" target="_blank">Facebook</a>
+              <a mat-raised-button href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>        
+          </section>
+        </div>
+    
+        <div class="formulario">
+          <div class="formulario">
+            <h2>Haz una reserva</h2>
+            <p>También puedes reservar por teléfono si lo prefieres.</p>
+            <form action="https://formsubmit.co/lostochis1@gmail.com" method="POST">
+              <label for="date">Día y hora de la reservación</label>
+              <input type="datetime-local" name="Día y hora de la reservación" id="date"  />
+              <label for="people">Número de comensales</label>
+              <input type="text" id="people" name="Número de comensales" placeholder="Nº de comensales" />
+              <label for="name">Nombre del cliente reservante</label>
+              <input type="text" id="name" name="Nombre del cliente reservante" placeholder="Escribe tu nombre" />
+              <label for="phone">Contacto Telefónico</label>
+              <input type="tel" id="phone" name="Contacto Telefónico" placeholder="Tu teléfono" />
+              <input class="btn" type="submit" value="RESERVAR" />
+              <input type="hidden" name="_next" value="http://localhost:4200/" />
+              <input type="hidden" name="_captcha" value="false" />
+            </form>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
